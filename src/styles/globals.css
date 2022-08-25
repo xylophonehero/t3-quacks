@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.chip {
+  text-shadow: 0px 0px 2px #000000;
+}
+.chip[data-color="white"] {
+  @apply bg-gray-200
+}
+.chip[data-color="green"] {
+  @apply bg-green-600
+}
+.chip[data-color="orange"] {
+  @apply bg-orange-600
+}
+.chip[data-color="blue"] {
+  @apply bg-blue-600
+}
